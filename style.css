@@ -17,15 +17,19 @@ body {
 	margin-top: 120px;
 }
 
-.first a {
-	color: white;
-	font-size: 20px;
-	font-family: arial;
-	display: block;
+.main a {
+	color: rgba(250,235,0,0.8);
 	text-align: center;
-	width: 100%;
+	font-size: 60px;
+	font-family: sans-serif;
+	line-height: 100px;
+	margin-top: 120px;
 }
 
+.main a:hover {
+	color: red;
+	font-size: 62px;
+}
 .sec {
 	width: 100%;
 
@@ -256,11 +260,16 @@ form {
 
 @media only screen and (min-width: 375px) {
 	.main {
+		margin-top: 430px;
+		margin-bottom: 200px;
+	}
+	.main a {
 		font-size: 120px;
 		font-family: sans-serif;
 		line-height: 200px;
 		margin-top: 430px;
 		margin-bottom: 200px;
+		text-decoration: none;
 	}
 
 	.sec {
@@ -440,6 +449,28 @@ form {
 
 
 @media only screen and (min-width: 1000px) {
+	.main {
+		color: rgba(250,235,0,0.8);
+		text-align: center;
+		font-size: 60px;
+		font-family: sans-serif;
+		line-height: 100px;
+		margin-top: 120px;
+	}
+
+	.main a {
+		color: rgba(250,235,0,0.8);
+		text-align: center;
+		font-size: 60px;
+		font-family: sans-serif;
+		line-height: 100px;
+		margin-top: 120px;
+	}
+
+	.main a:hover {
+		color: red;
+		font-size: 62px;
+	}
 	.sec {
 		padding: 0px;
 		margin-top: 150px;
